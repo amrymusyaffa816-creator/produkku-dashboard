@@ -113,7 +113,7 @@
             alt="Menenangkan pikiran"
           />
           <h4 class="text-xl font-semibold text-[#5b3a29]">
-          merelazkan tubuh
+          merelaxkan tubuh
           </h4>
           <p class="text-gray-600 mt-2">
             Menjaga stress.
@@ -241,18 +241,7 @@
         let produkList = [];
         <script>
   $(document).ready(function(){
-    $("body").css({
-      "background-image": "url('background.png')",
-      "background-size": "cover",
-      "background-repeat": "no-repeat",
-      "background-attachment": "fixed",
-      "background-position": "center"
-    });
-  });
-</script>
-
-
-        function tampilkanProduk() {
+         function tampilkanProduk() {
           $("#tabel-produk").html("");
           produkList.forEach(function (p, i) {
             $("#tabel-produk").append(`
@@ -276,12 +265,6 @@
           const produk = {
             nama: $("#nama").val(),
             kategori: $("#kategori").val(),
-            <option value="Elektronik">Elektronik</option>
-            <option value="Fashion">Fashion</option>
-            <option value="Makanan">Makanan</option>
-            <option value="Minuman">Minuman</option>
-            <option value="Lainnya">Lainnya</option>
-          </select>
             harga: $("#harga").val(),
             stok: $("#stok").val(),
           };
