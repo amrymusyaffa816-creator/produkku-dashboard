@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WaahhCoffee- Coffee CitaRasa Terbaik</title>
+    <title>WaahhCoffee - Coffee CitaRasa Terbaik</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -34,12 +34,12 @@
       </nav>
     </header>
 
-    <!-- Hero -->
+    <!-- Hero dengan parallax -->
     <section
       id="hero"
-      class="min-h-screen flex flex-col md:flex-row items-center justify-center pt-24 px-6"
+      class="min-h-screen flex flex-col md:flex-row items-center justify-center pt-24 px-6 relative"
     >
-      <div class="flex-1 text-center md:text-left">
+      <div class="flex-1 text-center md:text-left bg-white/30 p-6 rounded-xl">
         <h2 class="text-5xl font-bold mb-4 text-[#5b3a29]">
           Mood Cerah, Percaya Diri Setiap Hari ☕
         </h2>
@@ -51,17 +51,15 @@
         <a
           href="#"
           class="bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 transition"
+          >Coba Sekarang yuk</a
         >
-          Coba Sekarang yuk
-        </a>
       </div>
       <div class="flex-1 mt-10 md:mt-0">
-     <img
-  src="wahswee.jpg"
-  alt="Produk Wahskinn"
-  class="w-40 md:w-64 h-auto rounded-2xl shadow-lg mx-auto"
-/>
-
+        <img
+          src="wahswee.jpg"
+          alt="Produk Wahskinn"
+          class="w-40 md:w-64 h-auto rounded-2xl shadow-lg mx-auto"
+        />
       </div>
     </section>
 
@@ -74,13 +72,14 @@
       <p class="text-gray-700 max-w-2xl">
         Website <b>WaahhCoffee</b> dibuat pada tahun <b>2025</b> oleh
         <b>Amry</b> sebagai platform inovatif untuk membantu pengguna menemukan
-        Cara alami menikmati hidup dengan minuman kopi terbaik. Didesain dengan
+        cara alami menikmati hidup dengan minuman kopi terbaik. Didesain dengan
         cinta dan semangat alami, website ini hadir untuk mempermudah kamu dalam
-        memilih produk KOPI,mulai dari: biji kopi, rasa kopi,dan aroma kopi
+        memilih produk KOPI, mulai dari biji kopi, rasa kopi, dan aroma kopi
         sesuai kebutuhan harianmu.
-      </p> 
+      </p>
+    </section>
 
-    <!-- FITUR PRODUK -->
+    <!-- Fitur Produk -->
     <section
       id="fitur"
       class="py-20 text-center bg-gradient-to-b from-[#f5deb3] to-[#fffaf3]"
@@ -101,7 +100,7 @@
             Bahan biji kopi terbaik
           </h4>
           <p class="text-gray-600 mt-2">
-            Kandungan alami yang menutrisi efek kenikmatan .
+            Kandungan alami yang menutrisi efek kenikmatan.
           </p>
         </div>
         <div
@@ -112,12 +111,8 @@
             class="w-full rounded-xl mb-4"
             alt="Menenangkan pikiran"
           />
-          <h4 class="text-xl font-semibold text-[#5b3a29]">
-          merelaxkan tubuh
-          </h4>
-          <p class="text-gray-600 mt-2">
-            Menjaga stress.
-          </p>
+          <h4 class="text-xl font-semibold text-[#5b3a29]">Merelazkan tubuh</h4>
+          <p class="text-gray-600 mt-2">Menjaga stress.</p>
         </div>
         <div
           class="bg-white rounded-2xl shadow-lg p-5 hover:scale-105 transition"
@@ -125,20 +120,19 @@
           <img
             src="cinta.jpg"
             class="w-full rounded-xl mb-4"
-            alt="Mengembalikan mood anda yang sedang galau"
+            alt="Mengembalikan mood anda"
           />
           <h4 class="text-xl font-semibold text-[#5b3a29]">
-            Memberikan kenyamanan 
+            Memberikan kenyamanan
           </h4>
           <p class="text-gray-600 mt-2">
-            Mood ku balik akibat minum wahhcoffe
-            perubah mood alami terbaik.
+            Mood ku balik akibat minum wahhcoffee, perubahan mood alami terbaik.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- CRUD PRODUK -->
+    <!-- CRUD Produk -->
     <section id="produk" class="py-24 container mx-auto px-6 text-center">
       <h3 class="text-3xl font-bold mb-8 text-[#5b3a29]">Manajemen Produk</h3>
 
@@ -213,35 +207,34 @@
     </section>
 
     <!-- Footer -->
-   <footer
-  class="w-full bg-gradient-to-r from-amber-800 to-amber-600 text-white py-8 text-center"
->
-  <p class="mb-4 font-semibold">Hubungi kami di media sosial:</p>
-
-  <div class="space-x-6">
-    <a
-      href="https://www.instagram.com/waahcoffee_offcicial?igsh=MW4yb2xkZW1vd2VobQ=="
-      target="_blank"
-      class="inline-flex items-center gap-2 text-yellow-200 hover:text-white transition"
+    <footer
+      id="footer"
+      class="w-full bg-gradient-to-r from-amber-800 to-amber-600 text-white py-8 text-center"
     >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-        class="w-5 h-5"
-      />
-      <span>@waahCoffee</span>
-    </a>
-  </div>
-
-  <p class="text-sm mt-4">© WaahhCoffee. Rasa Nikmat Alami.</p>
-</footer>
+      <p class="mb-4 font-semibold">Hubungi kami di media sosial:</p>
+      <div class="space-x-6">
+        <a
+          href="https://www.instagram.com/waahcoffee_offcicial?igsh=MW4yb2xkZW1vd2VobQ=="
+          target="_blank"
+          class="inline-flex items-center gap-2 text-yellow-200 hover:text-white transition"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            class="w-5 h-5"
+          />
+          <span>@waahCoffee</span>
+        </a>
+      </div>
+      <p class="text-sm mt-4">© WaahhCoffee. Rasa Nikmat Alami.</p>
+    </footer>
 
     <!-- SCRIPT JQUERY -->
     <script>
       $(document).ready(function () {
+        // --- Produk CRUD ---
         let produkList = [];
-        <script>
-  $(document).ready(function(){
-         function tampilkanProduk() {
+
+        function tampilkanProduk() {
           $("#tabel-produk").html("");
           produkList.forEach(function (p, i) {
             $("#tabel-produk").append(`
@@ -249,7 +242,6 @@
                 <td class='border p-2'>${i + 1}</td>
                 <td class='border p-2'>${p.nama}</td>
                 <td class='border p-2'>${p.kategori}</td>
-                <select id="kategori" required>
                 <td class='border p-2'>Rp ${p.harga}</td>
                 <td class='border p-2'>${p.stok}</td>
                 <td class='border p-2'>
@@ -282,7 +274,7 @@
         $("#exportPDF").click(function () {
           const { jsPDF } = window.jspdf;
           const doc = new jsPDF();
-          doc.text("Laporan Produk Waahhskin", 14, 15);
+          doc.text("Laporan Produk WaahhCoffee", 14, 15);
           const rows = produkList.map((p, i) => [
             i + 1,
             p.nama,
@@ -297,10 +289,26 @@
           });
           doc.save("Laporan_Produk_WaahhCoffee.pdf");
         });
+
+        // --- Parallax Background Hero ---
+        const $hero = $("#hero");
+        $hero.css({
+          "background-image": "bacground.png",
+          "background-size": "cover",
+          "background-repeat": "no-repeat",
+          "background-attachment": "fixed",
+          "background-position": "center",
+        });
+
+        $(window).on("scroll", function () {
+          const scrollTop = $(this).scrollTop();
+          $hero.css("background-position", `center ${scrollTop * 0.5}px`);
+        });
       });
     </script>
   </body>
 </html>
+
 
 
 
